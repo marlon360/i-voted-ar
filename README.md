@@ -1,0 +1,1 @@
+# "I VOTED" sticker in AR in the web
