@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background: rgb(237, 237, 237);
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+model-viewer {
+    width: 100%;
+    margin: 40px auto;
+}
+model-viewer#reveal {
+    --poster-color: transparent;
+}
+
+h1 {
+    color: rgb(57, 57, 57);
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 4px;
+    color: rgb(57, 57, 57);
+}
+
+footer {
+    font-size: 12px;
+}
+
+footer a {
+    color: rgb(57, 57, 57);
+}

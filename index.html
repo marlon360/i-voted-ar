@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I VOTED - AR</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>I VOTED</h1>
+        <h2>View your sticker in AR</h2>
+        <model-viewer poster="images/voted_base.png" camera-controls auto-rotate ios-src="models/voted.usdz" src="models/voted.glb" alt="I voted sticker" ar></model-viewer>
+        <footer>created by <a href="https://marlon-lueckert.de">Marlon Lückert</a></footer>
+    </main>
+</body>
+</html>
